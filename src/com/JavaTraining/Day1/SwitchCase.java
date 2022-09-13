@@ -1,23 +1,24 @@
-public class Day1 {
-    boolean isLeapYear(int year) {
-        return year % 4 == 0 && (year % 100 != 0 || year % 400 == 0);
-    }
-    void function1(){
+package com.JavaTraining.Day1;
+
+import java.util.Scanner;
+
+public class SwitchCase {
+   static void function1(){
         System.out.println("function one called");
     }
-    void function5(){
+   static void function5(){
         System.out.println("function five called");
     }
-    void function2(){
+   static void function2(){
         System.out.println("function two called");
     }
-    void function3(){
+   static void function3(){
         System.out.println("function three called");
     }
-    void function4(){
+   static void function4(){
         System.out.println("function four called");
     }
-    void switchUse(int op) {
+   static void switchUse(int op) {
 
         switch (op){
             case 1:
@@ -39,14 +40,10 @@ public class Day1 {
                 System.out.println("invalid operation");
         }
     }
-    void maxAmongThree(int n1,int n2,int n3){
-        if( n1 >= n2 && n1 >= n3)
-            System.out.println(n1 + " is the largest number.");
 
-        else if (n2 >= n1 && n2 >= n3)
-            System.out.println(n2 + " is the largest number.");
-
-        else
-            System.out.println(n3 + " is the largest number.");
+    public static void main(String[] args) {
+        Scanner sc= new Scanner(System.in);
+        System.out.println("Enter number in range [1-5]");
+        switchUse(sc.nextInt());
     }
 }
