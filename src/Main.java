@@ -16,5 +16,6 @@ public class Main {
         int b=sc.nextInt();
         int c=sc.nextInt();
         new Day1().maxAmongThree(a,b,c);
+        System.out.println(new Day1().isMangoTree(10,60,2));
     }
 }

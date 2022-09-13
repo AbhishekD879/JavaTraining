@@ -49,4 +49,20 @@ public class Day1 {
         else
             System.out.println(n3 + " is the largest number.");
     }
+    boolean isMangoTree(int row, int column, int treeNumber){
+
+        if(treeNumber<row){
+            return true;
+        }
+
+        for(int i=1;i<=row;i++){
+            if(i*row==treeNumber){
+                return  true;
+            }
+            if((i+1*column)+1==treeNumber){
+                return true;
+            }
+        }
+        return false;
+    }
 }
