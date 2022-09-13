@@ -39,4 +39,14 @@ public class Day1 {
                 System.out.println("invalid operation");
         }
     }
+    void maxAmongThree(int n1,int n2,int n3){
+        if( n1 >= n2 && n1 >= n3)
+            System.out.println(n1 + " is the largest number.");
+
+        else if (n2 >= n1 && n2 >= n3)
+            System.out.println(n2 + " is the largest number.");
+
+        else
+            System.out.println(n3 + " is the largest number.");
+    }
 }

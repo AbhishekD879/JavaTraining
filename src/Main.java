@@ -10,5 +10,11 @@ public class Main {
 
         System.out.println("Enter the Operation [1-5]:");
         new Day1().switchUse(sc.nextInt());
+
+        System.out.println("Largest Number");
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        int c=sc.nextInt();
+        new Day1().maxAmongThree(a,b,c);
     }
 }
