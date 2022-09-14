@@ -46,4 +46,20 @@ public class SwitchCase {
         System.out.println("Enter number in range [1-5]");
         switchUse(sc.nextInt());
     }
+    boolean isMangoTree(int row, int column, int treeNumber){
+
+        if(treeNumber<row){
+            return true;
+        }
+
+        for(int i=1;i<=row;i++){
+            if(i*row==treeNumber){
+                return  true;
+            }
+            if((i+1*column)+1==treeNumber){
+                return true;
+            }
+        }
+        return false;
+    }
 }
