@@ -8,8 +8,11 @@ public class LeapYear {
     }
 
     public static void main(String[] args) {
-        Scanner sc= new Scanner(System.in);
-        System.out.println("Enter the year");
-        System.out.println(isLeapYear(sc.nextInt())?"It is Leap Year":"Its not Leap Year");
+//        Scanner sc= new Scanner(System.in);
+//        System.out.println("Enter the year");
+//        System.out.println(isLeapYear(sc.nextInt())?"It is Leap Year":"Its not Leap Year");
+        for(int i:new int[5]){
+            System.out.println();
+        }
     }
 }
