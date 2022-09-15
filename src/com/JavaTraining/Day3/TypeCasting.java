@@ -47,7 +47,6 @@ public class TypeCasting {
 //         Abhishek ab= new Employee();
 //         abhi.getPromotion();
          doEmployeeStuff(Ujwal);
-
     }
     static void doEmployeeStuff(Employee emp){
         emp.getPromotion();
