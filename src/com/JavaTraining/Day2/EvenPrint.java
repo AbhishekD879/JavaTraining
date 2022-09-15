@@ -1,6 +1,6 @@
 package com.JavaTraining.Day2;
 
-import java.util.Arrays;
+
 
 public class EvenPrint {
 

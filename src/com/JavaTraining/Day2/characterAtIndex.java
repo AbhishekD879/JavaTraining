@@ -3,7 +3,7 @@ package com.JavaTraining.Day2;
 import java.util.Scanner;
 
 public class characterAtIndex {
-     static  char characterAtIndex(String str, int index){
+     static  char characterAtIndexMethod(String str, int index){
         return str.charAt(index);
     }
     public static void main(String[] args) {
@@ -12,6 +12,6 @@ public class characterAtIndex {
         String str=scanner.nextLine();
         System.out.println("Enter the index range[0-"+str.length()+"]");
         int index= scanner.nextInt();
-        System.out.println(characterAtIndex(str,index));
+        System.out.println(characterAtIndexMethod(str,index));
     }
 }
