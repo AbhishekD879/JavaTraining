@@ -25,7 +25,7 @@ public class ArrayListAssignment {
     void insertElementAtIndex(int index,String ele){
         this.arr.set(index,ele);
     }
-    String removeFromThrid(){
+    String removeFromThird(){
         if(this.arr.size()>3){
             return this.arr.remove(3);
         }
@@ -43,16 +43,16 @@ public class ArrayListAssignment {
     void emptyArr() {
         this.arr.clear();
     }
-    void increseSizeMtd(int size){
+    void increaseSizeMtd(int size){
         this.arr.ensureCapacity(this.arr.size()+size);
     }
     boolean compareArr(ArrayList a,ArrayList b){
         return  a.equals(b);
     }
-    void insertAtSecomd(String ele){
+    void insertAtSecond(String ele){
         this.insertElementAtIndex(2,ele);
     }
-    void jointwoArrayList(ArrayList a,ArrayList b){
+    void joinTwoArrayList(ArrayList a,ArrayList b){
         a.addAll(b);
     }
     boolean isArrayListEmpty(ArrayList a){
