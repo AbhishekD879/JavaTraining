@@ -1,6 +1,6 @@
 package com.JavaTraining.Day5.Duck;
 
-public class WoodenDuck implements Decoratable {
+public class WoodenDuck extends Duck implements Decoratable {
 
     @Override
     public void decorate() {

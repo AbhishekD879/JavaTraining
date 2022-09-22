@@ -24,7 +24,18 @@ public class MagicSquare {
                     leftSum += matrix[i][j];
             }
         }
-        System.out.println(rightSum==leftSum?"yes":"no");
+        int colSum = 0;
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++)
+                colSum += matrix[j][i];
+
+        }
+        int rowSum = 0;
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++)
+                rowSum += matrix[i][j];
+        }
+        System.out.println((rightSum+leftSum)-(colSum+rowSum)==0?"yes":"no");
     }
 
 }

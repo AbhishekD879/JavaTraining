@@ -1,6 +1,6 @@
 package com.JavaTraining.Day5.Duck;
 
-public class MallardDuck implements Flyable,Swimable,Noise,Walkable{
+public class MallardDuck extends Duck implements Flyable,Swimable,Noise,Walkable{
     @Override
     public void fly() {
         System.out.println("flying");

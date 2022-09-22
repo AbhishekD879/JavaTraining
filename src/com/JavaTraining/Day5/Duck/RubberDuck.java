@@ -1,6 +1,6 @@
 package com.JavaTraining.Day5.Duck;
 
-public class RubberDuck implements Noise,Squeezable{
+public class RubberDuck extends Duck implements Noise,Squeezable{
     @Override
     public void makeNoise() {
         System.out.println("making noise");
@@ -8,6 +8,6 @@ public class RubberDuck implements Noise,Squeezable{
 
     @Override
     public void squeez() {
-        System.out.println("Can Squeez");
+        System.out.println("Can Squeeze");
     }
 }
